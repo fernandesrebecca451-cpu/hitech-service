@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER = '918652032858';
+const WHATSAPP_NUMBER = '918451856882';
 
 const menuBtn = document.querySelector('.menu-btn');
 const nav = document.querySelector('.nav');
@@ -25,6 +25,6 @@ form?.addEventListener('submit', (e) => {
   const name = document.getElementById('name').value.trim();
   const mobile = document.getElementById('mobile').value.trim();
   const area = document.getElementById('area').value.trim();
-  const msg = `Hello Hitech Service, I would like to enquire about ${appliance}.\nName: ${name}\nMobile: ${mobile}\nArea: ${area}`;
+  const msg = `Hello HI TECH SERVICE, I would like to enquire about ${appliance}.\nName: ${name}\nMobile: ${mobile}\nArea: ${area}`;
   window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`, '_blank', 'noopener');
 });
