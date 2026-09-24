@@ -226,3 +226,61 @@ body{background:linear-gradient(180deg,#ffffff 0%,#f6fbff 48%,#ffffff 100%)}
   .floating-actions .floating-phone{left:14px!important;right:auto!important;}
   .floating-actions .floating-whatsapp{right:14px!important;left:auto!important;}
 }
+
+/* Dedicated TV repair pages and homepage cards */
+.brand-tv-section{background:linear-gradient(135deg,#f4f9ff,#fff 60%,#eef6ff)}
+.brand-tv-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.brand-tv-card{background:white;border:1px solid #dceafa;border-radius:22px;overflow:hidden;box-shadow:0 15px 35px rgba(12,50,100,.08)}
+.brand-tv-card>img{display:block;width:100%;height:180px;object-fit:cover;object-position:right center}
+.brand-tv-content{padding:25px}.brand-tv-content h3{font-size:1.35rem;margin:12px 0}.brand-tv-content p{min-height:88px;color:#4b5b70}
+.brand-tv-tag{color:#0866bc;font-size:.76rem;font-weight:800;text-transform:uppercase;letter-spacing:.08em}
+.brand-hero{background:linear-gradient(120deg,#061b3c,#064a95 62%,#1386df);color:white;padding:65px 0}
+.brand-hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}.brand-hero h1{font-size:clamp(2rem,4vw,3.6rem);line-height:1.14;margin:12px 0 20px;color:white}.brand-hero p{color:#e1efff;font-size:1.05rem;line-height:1.85}.brand-hero img{width:100%;border-radius:22px;display:block;box-shadow:0 25px 55px rgba(0,0,0,.24)}.brand-hero .hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}
+.brand-detail-grid{display:grid;grid-template-columns:1.3fr .7fr;gap:30px;align-items:start}.brand-detail-card{border:1px solid #e1e9f5;border-radius:20px;padding:26px;background:#fff;box-shadow:0 12px 35px rgba(8,42,91,.06)}.brand-detail-card li{margin:12px 0;line-height:1.6}.brand-contact{background:linear-gradient(140deg,#edf6ff,#fff);border:1px solid #c9e2fc;border-radius:20px;padding:28px}.brand-contact .btn{display:block;text-align:center;margin-top:14px}.brand-other{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}.brand-other a{background:#e8f3ff;color:#074d9a;padding:11px 17px;border-radius:999px;font-weight:700}
+@media(max-width:800px){.brand-tv-grid,.brand-hero-grid,.brand-detail-grid{grid-template-columns:1fr}.brand-tv-content p{min-height:0}.brand-hero{padding:38px 0}.brand-hero img{max-height:300px;object-fit:cover}.brand-detail-card{padding:20px}}
+
+.floating-phone{position:fixed!important;left:16px!important;right:auto!important;bottom:24px!important}.floating-whatsapp{position:fixed!important;right:16px!important;left:auto!important;bottom:24px!important}.floating-btn{width:54px!important;height:54px!important;min-width:54px!important;min-height:54px!important;aspect-ratio:1/1!important;border-radius:50%!important;padding:12px!important;display:flex!important;align-items:center!important;justify-content:center!important;box-sizing:border-box!important}.floating-btn>.floating-icon{display:flex!important;align-items:center!important;justify-content:center!important;width:27px!important;height:27px!important}.floating-btn>.floating-icon svg{width:27px!important;height:27px!important}.floating-btn>span:last-child{display:none!important}
+
+/* Brand TV page expansions */
+.brand-hero-grid>.tv-photo-note{grid-column:2;margin:-28px 0 0;color:#d9e8fa;font-size:11px;text-align:center}.brand-hero-grid>img{aspect-ratio:3/2;object-fit:cover;background:#edf5ff}
+.tv-intro-strip{background:#fff;border-bottom:1px solid #dbe9f9}.tv-intro-strip .container{display:flex;justify-content:space-around;gap:15px;flex-wrap:wrap;padding:18px 0;font-size:12px;font-weight:800;color:#124781}
+.tv-section-title{max-width:760px;margin-bottom:34px}.tv-section-title h2,.tv-faq-layout h2,.tv-last-cta h2{font-size:clamp(29px,3.6vw,44px);line-height:1.18;color:#102845;margin:10px 0}.tv-section-title p,.tv-faq-layout p{color:#61748b;line-height:1.75}
+.tv-issue-layout{display:grid;grid-template-columns:1fr 1fr;gap:34px;align-items:center}.tv-issue-photo{background:#f2f7fc;border-radius:24px;overflow:hidden;box-shadow:0 18px 42px rgba(10,50,95,.08)}.tv-issue-photo img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover;display:block}.tv-issue-photo small{display:block;padding:10px 16px;color:#5d7089}.tv-issues{background:white;border:1px solid #dceafa;border-radius:22px;padding:30px}.tv-issues ul{list-style:none;padding:0;margin:0 0 24px;display:grid;gap:14px}.tv-issues li{display:flex;gap:12px;align-items:center;font-weight:700;color:#203a59}.tv-check{width:27px;height:27px;flex:0 0 27px;display:grid;place-items:center;border-radius:50%;background:#e6f5ec;color:#118047}
+.tv-types-section{background:linear-gradient(130deg,#f0f7ff,#fff9ec)}.tv-type-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.tv-type{padding:25px 19px;border:1px solid #d9e8f8;border-radius:19px;background:#fff;display:flex;flex-direction:column;gap:12px;box-shadow:0 12px 24px rgba(7,48,92,.04)}.tv-type-icon{font-size:28px;color:#1163c1}.tv-type strong{font-size:17px;color:#132e50}.tv-type small{font-size:12px;color:#697b8e;line-height:1.6}
+.tv-steps{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.tv-steps>div{border:1px solid #e1eaf4;border-radius:20px;padding:26px}.tv-steps b{font-size:27px;color:#1680d8}.tv-steps h3{color:#142d4a;margin:14px 0 8px}.tv-steps p{color:#64778b;line-height:1.7}
+.tv-faq-section{background:#f5faff}.tv-faq-layout{display:grid;grid-template-columns:.85fr 1.15fr;gap:60px}.tv-faq-list details{border-bottom:1px solid #d5e2f0;padding:18px 0}.tv-faq-list summary{font-weight:800;cursor:pointer;color:#153657}.tv-faq-list p{margin-bottom:0}.tv-last-cta{background:linear-gradient(115deg,#0b2343,#0863ba);padding:52px 0;color:#fff}.tv-last-cta>.container{display:flex;justify-content:space-between;align-items:center;gap:28px}.tv-last-cta h2{color:white}.tv-last-cta p{color:#d6e7fa}.tv-last-actions{display:flex;gap:10px;flex-wrap:wrap}.tv-last-cta .btn-secondary{color:white;border-color:#a3c6f0}
+@media(max-width:800px){.brand-hero-grid>.tv-photo-note{grid-column:1;margin:-22px 0 0}.tv-issue-layout,.tv-faq-layout{grid-template-columns:1fr}.tv-type-grid{grid-template-columns:repeat(2,1fr)}.tv-steps{grid-template-columns:1fr}.tv-last-cta>.container{flex-direction:column;align-items:flex-start}.tv-intro-strip .container{padding:15px 18px;justify-content:flex-start}.tv-issues{padding:20px}}
+@media(max-width:470px){.tv-type-grid{grid-template-columns:1fr}.tv-issue-photo img{height:auto}.tv-expanded-section,.tv-types-section,.tv-process-section,.tv-faq-section{padding:54px 0}}
+
+/* Site development credit */
+.flydigital-credit { text-align:center; margin: 0 auto; padding: 12px 18px 22px; font-size: 13px; color: #cbd5e1; }
+.flydigital-credit a { color: #f7c45b; font-weight: 700; text-decoration: none; }
+.flydigital-credit a:hover { text-decoration: underline; }
+
+/* Fix: WhatsApp enquiry CTA in light contact cards was white on white. */
+.brand-contact a.btn-secondary {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width:100%;
+  min-height:50px;
+  padding:12px 18px;
+  background:#078b4b;
+  border:1px solid #078b4b;
+  color:#ffffff;
+  font-weight:800;
+  text-decoration:none;
+  border-radius:12px;
+  box-shadow:0 8px 20px rgba(7,139,75,.16);
+  opacity:1;
+  visibility:visible;
+}
+.brand-contact a.btn-secondary:hover,
+.brand-contact a.btn-secondary:focus-visible {
+  background:#06723f;
+  border-color:#06723f;
+  color:#fff;
+}
+@media(max-width:600px){
+ .brand-contact a.btn-secondary{display:flex;min-height:52px;width:100%;font-size:15px;}
+}
